@@ -14,8 +14,18 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 90vw;
+    margin: auto;
+}
+
 header{
     background-color: aqua;
+    margin-top: 70px;
 }
 main{
     background-color: tomato;
@@ -23,4 +33,5 @@ main{
 }
 footer{
     background-color: plum;
+    margin-bottom: 24px;
 }
