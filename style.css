@@ -13,6 +13,7 @@ body{
     background-color: var(--primary-color);
     display: flex;
     flex-direction: column;
+    font-family: 'Righteous', cursive;
 }
 
 .container{
@@ -35,12 +36,41 @@ header a{
     text-decoration: none;
     color: var(--secondary-color);
     font-size: 2rem;
-    font-family: 'Righteous', cursive;
 }
 main{
-    background-color: tomato;
     flex-grow: 1;
 }
+
+.title{
+    position: relative;
+    grid-column: 1/-1;
+    place-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title__text{
+    font-size: 20vw;
+    color: #fff;
+}
+.title__transparent{
+    position: absolute;
+    top: -50%;
+    font-size: 27vw;
+    color: #fff5;
+    z-index: -1;
+}
+
+.description {
+    background-color: pink;
+    grid-column: 1/7;
+}
+.action {
+    background-color:aqua;
+    grid-column: 7/-1;
+}
+
 footer{
     background-color: plum;
     margin-bottom: 24px;
