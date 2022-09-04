@@ -88,7 +88,10 @@ main{
     align-items: center;
 }
 
-footer{
-    background-color: plum;
+.footer__text{
+    grid-column: 1/-1;
+    place-self: center;
     margin-bottom: 24px;
+    color: var(--secondary-color);
+    font-size: 1rem;
 }
