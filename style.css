@@ -63,8 +63,16 @@ main{
 }
 
 .description {
-    background-color: pink;
     grid-column: 1/7;
+    place-self: center start;
+    color: var(--secondary-color);
+}
+.description__title{
+    font-size: 4rem;
+}
+.description__text{
+    width: 500px;
+    font-size: 1.2rem;
 }
 .action {
     background-color:aqua;
