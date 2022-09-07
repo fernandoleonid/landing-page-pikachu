@@ -138,5 +138,21 @@ main{
     footer{
         display: none;
     }
+}
 
+@media (max-width:640px) {
+
+    .description__title{
+        font-size: 10vw;
+    }
+    .description__text {
+        display: none;
+    }
+    .action{
+        width: 100%;
+        font-size: 10vw;
+    }
+    .pikachu-image{
+        width: 90vw;
+    }
 }
