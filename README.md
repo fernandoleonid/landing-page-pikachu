@@ -1,7 +1,13 @@
 # Landing Page - Let's Go, Pikachu
 
+<center>
+
 ![][desktop]
+![][mobile]
+
 [VEJA O SITE][urlSite]
+
+</center>
 
 ---
 
@@ -25,5 +31,7 @@ O intuito deste projeto é colocar em prática o conhecimento adquirido sobre li
 - [Fernando Leonid][urlAutor]
 
 [desktop]:./screenshot/desktop.png
+[tablet]:./screenshot/tablet.png
+[mobile]:./screenshot/mobile.png
 [urlSite]:https://fernandoleonid.github.io/landing-page-pikachu/
 [urlAutor]:https://github.com/fernandoleonid/
