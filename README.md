@@ -1,13 +1,9 @@
 # Landing Page - Let's Go, Pikachu
 
-<center>
-
 ![][desktop]
 ![][mobile]
 
 [VEJA O SITE][urlSite]
-
-</center>
 
 ---
 
